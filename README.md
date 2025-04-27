@@ -54,3 +54,34 @@ Task 12: Retrieve List of Unreturned Books <br/>
 Used LEFT JOIN between issued_status and return_status tables to find books that have not yet been returned. <br/>  
 
 ## Advanced SQL Operations
+Task 13: Identify Members with Overdue Books <br/>
+Queried issued_status and return_status tables to find members who have overdue books (not returned within 30 days), along with the number of days overdue. <br/>
+
+Task 14: Update Book Status on Return <br/>
+Created a stored procedure to update the status of books to "Yes" when returned, based on entries made in the return_status table. <br/>
+
+Task 15: Branch Performance Report <br/>
+Generated a performance report for each branch, showing total books issued, books returned, and total revenue earned from book rentals. <br/>
+
+Task 16: Create Table of Active Members <br/>
+Created a new table active_members using CTAS to list members who issued at least one book within the last 1 year and 6 months. <br/>
+
+Task 17: Find Employees with the Most Book Issues Processed <br/>
+Identified the top 3 employees who processed the highest number of book issues, displaying their names and branch details. <br/>
+
+Task 18: Find Top 3 Most Issued Books <br/>
+Queried issued_status to find the top 3 most frequently issued books based on total issuance count, ordered by title in case of a tie. <br/>
+
+Task 19: Manage Book Status on Issuance (Stored Procedure) <br/> 
+Created a stored procedure to issue a book if available (status = 'yes') and update its status to 'no'; raises a message if not available. <br/>
+
+Task 20: Create Table for Overdue Books and Fines <br/>
+Used CTAS to create a new table listing each member’s overdue books, total fines calculated at $0.50 per day, and total books issued <br/>
+
+## 🛠 Key Skills Demonstrated: 
+
+- Advanced SQL querying (JOIN, GROUP BY, CASE, CTE, etc.) <br/>
+- Stored Procedures using PL/pgSQL <br/>
+- Data Aggregation and Reporting <br/>
+- Real-world library operations modeling <br/>
+- CTAS (Create Table As Select) for reporting <br/>
