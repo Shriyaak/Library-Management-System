@@ -1,7 +1,8 @@
 
 Project Title: Library Management System <br/>
 Level: Intermediate <br/>
-Dataset: https://github.com/Shriyaak/Library-Management-System/tree/2bb83249c482b480747dca63a05248523374bea5/data 
+**Dataset:** [Library Management System Dataset](./data/)  
+The dataset includes tables like `books.csv`, `members.csv`, `issued_status.csv`, `return_status.csv`,`branch.csv` and `employee.csv`, used for SQL query practices and project tasks.
 <br/>
 <br/>
 
